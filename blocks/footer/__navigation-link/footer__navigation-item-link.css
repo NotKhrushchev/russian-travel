@@ -1,5 +1,4 @@
-.footer__navigation-link {
-    padding-left: 18px;
+.footer__navigation-item-link {
     color: white;
     text-decoration: none;
     transition: opacity 0.2s ease-out;
@@ -8,18 +7,13 @@
     line-height: 18px;
 }
 
-.footer__navigation-link:first-child {
-    padding: 0;
-}
-
-.footer__navigation-link:hover {
+.footer__navigation-item-link:hover {
     opacity: 0.5;
 }
 
 @media screen and (max-width: 767px) {
-    .footer__navigation-link {
+    .footer__navigation-item-link {
         font-size: 24px;
         line-height: 24px;
-        padding: 32px 0 0;
     }
 }
