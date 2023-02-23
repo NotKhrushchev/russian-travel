@@ -1,4 +1,4 @@
-.header__lang-link_active {
+.header__lang-link-active {
     color: white;
     font-size: 24px;
     font-weight: normal;
@@ -7,12 +7,12 @@
     transition: opacity 0.2s ease-out;
 }
 
-.header__lang-link_active:hover {
+.header__lang-link-active:hover {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
-    .header__lang-link_active {
+    .header__lang-link-active {
         font-size: 18px;
         font-weight: normal;
         line-height: 20px;
