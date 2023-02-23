@@ -8,6 +8,6 @@
     transition: opacity 0.2s ease-out;
 }
 
-.place__website__link:hover {
-    opacity: 0.5;
+.place__link:hover {
+    opacity: 0.8;
 }
